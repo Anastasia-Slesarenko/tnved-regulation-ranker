@@ -1,0 +1,59 @@
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Tests and linters
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Source data supplied with the assignment
+data/*
+!data/README.md
+
+# Assignment document
+assignment.pdf
+
+# Downloaded models and caches
+models/
+model_cache/
+.cache/
+*.safetensors
+
+# Generated outputs
+out/*
+!out/predictions.csv
