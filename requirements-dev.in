@@ -1,7 +1,9 @@
--r requirements.in
+-c requirements.txt
 
 jupyterlab
 ipykernel
+ipywidgets
 matplotlib
 pytest
 pip-tools
+rank-bm25
